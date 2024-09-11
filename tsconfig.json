@@ -1,10 +1,10 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
+    "target": "es2022",
     "jsx": "preserve",
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "bundler",
     "paths": {
       "@/*": ["src/*"]
@@ -13,7 +13,7 @@
     "types": [
       "vite/client",
       "unplugin-vue-router/client",
-      "node"
+      "node", "jest"
     ],
     "allowJs": true,
     "strict": true,

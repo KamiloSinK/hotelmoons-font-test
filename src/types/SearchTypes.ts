@@ -12,7 +12,7 @@ export interface HotelData {
     hotelName: string;
     location: string;
     country: string;
-  };
+  }[];
 }
 export interface ReservationData {
   rooms: {
